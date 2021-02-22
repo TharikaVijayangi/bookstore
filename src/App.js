@@ -1,14 +1,17 @@
 
 import './App.css';
-import { Button } from 'react-bootstrap';
+import Navigation from './Components/Navigation';
+import Landing from './Components/Landing';
+import Addbook from './Components/Addbook';
+import BookSection from './Components/BookSection';
 
 function App() {
   return (
     <div className="App">
-      <Button variant="primary">Primary</Button>{' '}
-  <Button variant="secondary">Secondary</Button>{' '}
-  <Button variant="success">Success</Button>{' '}
-  <Button variant="warning">Warning</Button>{' '}
+      <Navigation></Navigation>
+      <Landing></Landing>
+      <Addbook></Addbook>
+      <BookSection></BookSection>
     </div>
   );
 }

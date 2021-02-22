@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.topic{
+  font-family: "Sofia", sans-serif;
+  font-size: 220px;
+}
+
+.navigation{
+  background-color: #7bceda;
+}
+.jumbo{
+  background-image: url(./Images/book1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: left;
+}

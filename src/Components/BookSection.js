@@ -29,24 +29,21 @@ class BookSection extends Component {
                                 
                                     <Col md="3">
                                         <Card style={{ width: '12rem' }}>
-                                            <Card.Img variant="top" src="https://officetemplatesonline.com/wp-content/uploads/2015/04/sample-booklet-template.png" />
+                                            <Card.Img variant="top" src="http://lightbourne.com/lb_live/wp-content/uploads/2012/10/LB_Cover_Template_74.jpg" />
                                             <Card.Body>
                                                 <Card.Title>{item.BookName}</Card.Title>
                                                 <Card.Text>{item.Author}</Card.Text>
-                                                <Card.Text>{item.Price}</Card.Text>
+                                                <Card.Text>AUD {item.Price}</Card.Text>
                                                 <Card.Text>{item.ISBN}</Card.Text>
                                             </Card.Body>
                                         </Card>
                                     </Col>
-                                
-
                         )
                     })
                 ) : (
                         <p>Loading...</p>
                     )}
                     </Row>
-
                 </Container>
             </div>
         )

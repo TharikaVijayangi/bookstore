@@ -14,24 +14,12 @@ class footer extends Component {
                                <p className="footerFont"> these lofty doals.</p>
                             <p className="footerFont">Stay conneccted.</p>
                         </Col>
-                        <Col md="4">
+                        
+                        <Col md="8">
                             <br></br>
-                            <h6 className="footerFont">Around The Web</h6>
-                            <Row>
-                                <Col md="1">
-                                    
-                                </Col>
-                            </Row>
-
-                        </Col>
-                        <Col md="4">
-                            <br></br>
-                            <p className="footerFont">Our mission is to bring</p> 
-                            <p className="footerFont">affordable technology education </p>
-                            <p className="footerFont">to people everywhere </p>
-                            <p className="footerFont">in order to help them </p>
-                            <p className="footerFont">achieve their dreams</p> 
-                            <p className="footerFont">and change the world.</p>
+                            <p className="footerFont">Our mission is to bring affordable technology education</p> 
+                            <p className="footerFont">to people everywhere in order to help them </p>
+                            <p className="footerFont">achieve their dreams and change the world.</p> 
 
                         </Col>
                     </Row>

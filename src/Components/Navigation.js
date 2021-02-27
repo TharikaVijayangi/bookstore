@@ -7,7 +7,7 @@ class Navigation extends Component {
             <div>
                 <Container>
                     <Navbar expand="lg" className="navigation">
-                        <Navbar.Brand className="topic" href="#home"><b>Read To Love</b></Navbar.Brand>
+                        <Navbar.Brand href="#home"><b>Read To Love</b></Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="main-nav ml-auto">
